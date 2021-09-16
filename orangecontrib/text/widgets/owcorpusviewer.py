@@ -66,7 +66,7 @@ class OWCorpusViewer(OWWidget):
         info_box = gui.widgetBox(self.controlArea, 'Info')
         gui.label(info_box, self, 'Tokens: %(n_tokens)s')
         gui.label(info_box, self, 'Types: %(n_types)s')
-        gui.label(info_box, self, 'Matching documents: %(n_matching)s')
+        gui.label(info_box, self, 'Matching docs: %(n_matching)s')
         gui.label(info_box, self, 'Matches: %(n_matches)s')
 
         # Search features
