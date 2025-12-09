@@ -1,10 +1,8 @@
 import inspect
-from collections import Counter
-from warnings import warn
 
 from gensim import matutils
 import numpy as np
-from gensim.corpora import Dictionary
+from orangecontrib.text.preprocess.dictionary import Dictionary
 from gensim.models.callbacks import Metric
 
 from Orange.data import StringVariable, ContinuousVariable, Domain
