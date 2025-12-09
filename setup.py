@@ -79,7 +79,7 @@ class InstallMultilingualCommand(install):
         package_dir = os.path.dirname(os.path.abspath(__file__))
         translate(
             "msgs.jaml",
-            source_dir=os.path.join(self.install_lib, "orangecontrib"),
+            source_dir=os.path.join(self.install_lib, "orangecontrib", "text"),
             config_file=os.path.join(package_dir, "i18n", "trubar-config.yaml"), verbosity=1000)
 
 
