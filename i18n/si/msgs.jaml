@@ -106,58 +106,58 @@ text/corpus_to_network.py:
 text/country_codes.py:
     _0: false
     Kosovo: false
-    Kosovo, Republic of: Republika Kosovo
+    Kosovo, Republic of: false
     -99: false
-    N. Cyprus: S. Ciper
-    North Cyprus: Severni Ciper
+    N. Cyprus: false
+    North Cyprus: false
     AD: false
     AND: false
-    Andorra: Andora
+    Andorra: false
     AL: false
     ALB: false
-    Albania: Albanija
+    Albania: false
     AT: false
     AUT: false
-    Austria: Avstrija
+    Austria: false
     AX: false
     ALA: false
-    Åland Islands: Aland oto
+    Åland Islands: false
     Aland: false
     BA: false
     BIH: false
-    Bosnia and Herzegovina: Bosna in Hercegovina
-    Bosnia and Herz.: Bosna in Herc.
+    Bosnia and Herzegovina: false
+    Bosnia and Herz.: false
     BE: false
     BEL: false
-    Belgium: Belgija
+    Belgium: false
     BG: false
     BGR: false
-    Bulgaria: Bulgarija
+    Bulgaria: false
     BY: false
     BLR: false
-    Belarus: Belorusija
+    Belarus: false
     CH: false
     CHE: false
-    Switzerland: Švica
+    Switzerland: false
     CY: false
     CYP: false
-    Cyprus: Ciper
+    Cyprus: false
     CZ: false
     CZE: false
-    Czech Republic: Republika Češka
-    Czech Rep.: Češka
+    Czech Republic: false
+    Czech Rep.: false
     DE: false
     DEU: false
-    Germany: Nemčija
+    Germany: false
     DK: false
     DNK: false
-    Denmark: Danska
+    Denmark: false
     DZ: false
     DZA: false
-    Algeria: Alžirija
+    Algeria: false
     EE: false
     EST: false
-    Estonia: Estonija
+    Estonia: false
     EG: null
     EGY: null
     Egypt: null
@@ -1603,183 +1603,183 @@ text/import_documents.py:
             /: false
 text/language.py:
     af: false
-    Afrikaans: afrikanščina
+    Afrikaans: false
     am: false
-    Amharic: amharščina
+    Amharic: false
     ar: false
-    Arabic: arabščina
+    Arabic: false
     az: false
-    Azerbaijani: azerbajdžanščina
+    Azerbaijani: false
     be: false
-    Belarusian: beloruščina
+    Belarusian: false
     bg: false
-    Bulgarian: bolgarščina
+    Bulgarian: false
     bn: false
-    Bengali: bengalščina
+    Bengali: false
     bo: false
-    Tibetan: tibetanščina
+    Tibetan: false
     br: false
-    Breton: bretonščina
+    Breton: false
     bs: false
-    Bosnian: bosanščina
+    Bosnian: false
     ca: false
-    Catalan: katalonščina
+    Catalan: false
     ckb: false
-    Central Kurdish: osrednja kurdščina
+    Central Kurdish: false
     cop: false
-    Coptic: koptščina
+    Coptic: false
     cs: false
-    Czech: češčina
+    Czech: false
     cu: false
-    Old Church Slavonic: stara cerkvena slovaščina
+    Old Church Slavonic: false
     cy: false
-    Welsh: valižanščina
+    Welsh: false
     da: false
-    Danish: danščina
+    Danish: false
     de: false
-    German: nemščina
+    German: false
     dv: false
-    Divehi: divehi
+    Divehi: false
     el: false
-    Greek: grščina
+    Greek: false
     en: false
-    English: angleščina
+    English: false
     es: false
-    Spanish: španščina
+    Spanish: false
     et: false
-    Estonian: estonščina
+    Estonian: false
     eu: false
-    Basque: baskovščina
+    Basque: false
     fa: false
-    Persian: perzijščina
+    Persian: false
     fi: false
-    Finnish: finščina
+    Finnish: false
     fr: false
-    French: francoščina
+    French: false
     ga: false
-    Irish: irščina
+    Irish: false
     gl: false
-    Galician: galicijščina
+    Galician: false
     got: false
-    Gothic: gotščina
+    Gothic: false
     grc: false
-    Ancient Greek: starogrščina
+    Ancient Greek: false
     gu: false
-    Gujarati: gudžarati
+    Gujarati: false
     he: false
-    Hebrew: hebrejščina
+    Hebrew: false
     hi: false
-    Hindi: hindu
+    Hindi: false
     hi-Latn: false
-    Hindi (latin): hindu (latinsko)
+    Hindi (latin): false
     hi_eng: false
-    Hinglish: hingleščina
+    Hinglish: false
     hr: false
-    Croatian: hrvaščina
+    Croatian: false
     ht: false
-    Haitian: haitijščina
+    Haitian: false
     hu: false
-    Hungarian: madžarščina
+    Hungarian: false
     hy: false
-    Armenian: armenščina
+    Armenian: false
     id: false
-    Indonesian: indonezijščina
+    Indonesian: false
     is: false
-    Icelandic: islandščina
+    Icelandic: false
     it: false
-    Italian: italijanščina
+    Italian: false
     ja: false
-    Japanese: japonščina
+    Japanese: false
     ka: false
-    Georgian: gruzijščina
+    Georgian: false
     kk: false
-    Kazakh: kazahstanščina
+    Kazakh: false
     km: false
-    Central Khmer: osrednja kmerščina
+    Central Khmer: false
     kn: false
-    Kannada: kannada
+    Kannada: false
     ko: false
-    Korean: korejščina
+    Korean: false
     la: false
-    Latin: latiščina
+    Latin: false
     lo: false
-    Lao: laojščina
+    Lao: false
     lt: false
-    Lithuanian: litvanščina
+    Lithuanian: false
     lv: false
-    Latvian: latvijščina
+    Latvian: false
     mk: false
-    Macedonian: makedonščina
+    Macedonian: false
     ml: false
-    Malayalam: malezijščina
+    Malayalam: false
     mr: false
-    Marathi: marati
+    Marathi: false
     my: false
-    Burmese: burmejščina
+    Burmese: false
     nb: false
-    Norwegian Bokmål: norveščina bokmål
+    Norwegian Bokmål: false
     ne: false
-    Nepali: nepalščina
+    Nepali: false
     nl: false
-    Dutch: nizozemščina
+    Dutch: false
     nn: false
-    Norwegian Nynorsk: norveščina nynorsk
+    Norwegian Nynorsk: false
     no: false
-    Norwegian: norveščina
+    Norwegian: false
     or: false
-    Oriya: orija
+    Oriya: false
     pa: false
-    Punjabi: pundžabščina
+    Punjabi: false
     pl: false
-    Polish: poljščina
+    Polish: false
     ps: false
-    Pashto: paštun
+    Pashto: false
     pt: false
-    Portuguese: portugalščina
+    Portuguese: false
     ro: false
-    Romanian: romunščina
+    Romanian: false
     ru: false
-    Russian: ruščina
+    Russian: false
     sa: false
-    Sanskrit: sanskrt
+    Sanskrit: false
     sd: false
-    Sindhi: sindi
+    Sindhi: false
     si: false
-    Sinhala: sinhala
+    Sinhala: false
     sk: false
-    Slovak: slovaščina
+    Slovak: false
     sl: false
-    Slovenian: slovenščina
+    Slovenian: false
     sq: false
-    Albanian: albanščina
+    Albanian: false
     sr: false
-    Serbian: srbščina
+    Serbian: false
     sv: false
-    Swedish: švedščina
+    Swedish: false
     ta: false
-    Tamil: tamilščina
+    Tamil: false
     te: false
-    Telugu: telugu
+    Telugu: false
     tg: false
-    Tajik: tadžiščina
+    Tajik: false
     th: false
-    Thai: tajščina
+    Thai: false
     tl: false
-    Tagalog: tagalog
+    Tagalog: false
     tr: false
-    Turkish: turščina
+    Turkish: false
     ug: false
-    Uyghur: ujgurščina
+    Uyghur: false
     uk: false
-    Ukrainian: ukrajinščina
+    Ukrainian: false
     ur: false
-    Urdu: urdu
+    Urdu: false
     vi: false
-    Vietnamese: vietnamščina
+    Vietnamese: false
     zh: false
-    Chinese: kitajščina
+    Chinese: false
     zh_char: false
-    Chinese - Chinese Characters: kitajščina - kitajski znaki
+    Chinese - Chinese Characters: false
     class `LanguageModel`:
         def `data`:
             (no language): false
@@ -1787,7 +1787,7 @@ text/language.py:
         Corpus: false
         ' ': false
         \n: false
-    Ancient greek: starogrščina
+    Ancient greek: false
 text/nyt.py:
     http://api.nytimes.com/svc/search/v2/articlesearch.json: false
     def `keywords`:
@@ -2985,135 +2985,135 @@ text/widgets/owcollocations.py:
 text/widgets/owconcordance.py:
     class `ConcordanceModel`:
         def `data`:
-            ' ': null
+            ' ': false
         def `get_data`:
-            Conc. {}: null
-            Document: null
-            ' ': null
+            Conc. {}: false
+            Document: false
+            ' ': false
     class `OWConcordance`:
-        Concordance: null
-        Display the context of the word.: null
-        icons/Concordance.svg: null
-        concordance, context: null
+        Concordance: Konkordance
+        Display the context of the word.: Prikaži kontekst besede.
+        icons/Concordance.svg: false
+        concordance, context: konkordance, kontekst
         class `Inputs`:
             Corpus: Korpus
-            Query Word: null
+            Query Word: Iskana beseda
         class `Outputs`:
-            Selected Documents: null
-            Concordances: null
+            Selected Documents: Izbrani dokumenti
+            Concordances: Konkordance
         class `Warning`:
-            'Multiple query words on input. ': null
-            Only the first one is considered!: null
+            'Multiple query words on input. ': 'Več iskanih besed na vhodu. '
+            Only the first one is considered!: Upošteva se zgolj prva!
         def `__init__`:
-            Info: null
-            'Tokens: %(n_tokens)s': null
-            'Types: %(n_types)s': null
-            'Matching: %(n_matching)s': null
-            context_width: null
-            Number of words:: null
-            word: null
-            Query:: null
-            autocommit: null
-            Commit: null
-            Auto commit is on: null
+            Info: false
+            'Tokens: %(n_tokens)s': 'Pojavnice: %(n_tokens)s'
+            'Types: %(n_types)s': 'Tipi: %(n_types)s'
+            'Matching: %(n_matching)s': 'Ujemajočih: %(n_matching)s'
+            context_width: false
+            Number of words:: Število besed:
+            word: false
+            Query:: Iskana beseda:
+            autocommit: false
+            Commit: Uveljavi
+            Auto commit is on: Samodejno uveljavi
         def `update_widget`:
-            {}/{}: null
+            {}/{}: false
         def `send_report`:
-            Concordances: null
-            Query: null
-            Tokens: null
-            Types: null
-            Matching: null
-    __main__: null
-    book-excerpts: null
+            Concordances: Konkordance
+            Query: Iskana beseda
+            Tokens: Pojavnice
+            Types: Tipi
+            Matching: Ujemajoče
+    __main__: false
+    book-excerpts: false
 text/widgets/owcorpus.py:
     class `CorpusContextHandler`:
         def `match`:
-            documents_hash: null
-            language: null
+            documents_hash: false
+            language: false
         def `__compute_hash`:
-            ' ': null
-            utf-8: null
+            ' ': false
+            utf-8: false
     class `OWCorpus`:
         Corpus: Korpus
-        Load a corpus of text documents.: null
-        icons/TextFile.svg: null
-        corpus, text: null
-        orangecontrib.text.widgets.owloadcorpus.OWLoadCorpus: Korpus
+        Load a corpus of text documents.: Naloži korpus besedil.
+        icons/TextFile.svg: false
+        corpus, text: korpus, besedila
+        orangecontrib.text.widgets.owloadcorpus.OWLoadCorpus: false
         class `Inputs`:
-            Data: null
+            Data: Podatki
         class `Outputs`:
             Corpus: Korpus
-        All readable files ({});;: null
-        *: null
-        ' *': null
-        ;;: null
-        {} (*{}): null
-        book-excerpts.tab: null
-        grimm-tales-selected.tab: null
-        election-tweets-2016.tab: null
-        friends-transcripts.tab: null
-        andersen.tab: null
-        en: null
+        All readable files ({});;: Vse berljive datoteke ({});;
+        *: false
+        ' *': false
+        ;;: false
+        {} (*{}): false
+        book-excerpts.tab: false
+        grimm-tales-selected.tab: false
+        election-tweets-2016.tab: false
+        friends-transcripts.tab: false
+        andersen.tab: false
+        en: false
         class `Error`:
-            Can't read file ({}): null
-            At least one text feature must be used.: null
-            Corpus doesn't have any textual features.: null
+            Can't read file ({}): Ne morem prebrati datoteke ({})
+            At least one text feature must be used.: Nastavljena mora biti vsaj ena besedilna spremenljivka.
+            Corpus doesn't have any textual features.: Korpus je brez besedilnih spremenljivk.
         def `__init__`:
-            Corpus file: null
-            Open Orange Document Corpus: Korpus
-            Reload: null
-            Browse: null
-            (no title): null
-            Corpus settings: null
-            title_variable: null
-            Title variable: null
-            language: null
-            Language: null
-            Used text features: null
-            Ignored text features: null
-            Browse documentation corpora: null
+            Corpus file: Datoteka korpusa
+            Open Orange Document Corpus: Odpri Orangevo zbirko korpusov
+            Reload: Ponovno naloži
+            Browse: Išči
+            (no title): (brez naslova)
+            Corpus settings: Nastavitve korpusa
+            title_variable: false
+            Title variable: Spremenljivka za naslov
+            language: false
+            Language: Jezik
+            Used text features: Uporabljene besedilne spremenljivke
+            Ignored text features: Izpuščene besedilne spremenljivke
+            Browse documentation corpora: Išči med korpusi iz dokumentacija
         def `_load_corpus`:
-            Loading: null
-            name: null
+            Loading: Nalagam
+            name: false
         def `_setup_title_dropdown`:
-            title: null
-            heading: null
-            filename: null
+            title: false
+            heading: false
+            filename: false
         def `update_feature_selection`:
-            language: null
+            language: false
         def `send_report`:
             def `describe`:
-                ', ': null
-                (none): null
+                ', ': false
+                (none): (brez)
             Corpus: Korpus
-            File: null
-            Documents: null
-            Used text features: null
-            Ignored text features: null
-            Other features: null
-            Target: null
+            File: Datoteka
+            Documents: Dokumenti
+            Used text features: Uporabljene besedilne spremenljivke
+            Ignored text features: Izpuščene besedilne spremenljivke
+            Other features: Druge spremenljivke
+            Target: Ciljna spremenljivka
         def `migrate_context`:
-            language: null
-    __main__: null
+            language: false
+    __main__: false
 text/widgets/owcorpustonetwork.py:
     class `OWCorpusToNetwork`:
-        Corpus to Network: null
-        Constructs network from given corpus.: null
-        corpus to network, network: null
-        icons/CorpusToNetwork.svg: null
+        Corpus to Network: Korpus v omrežje
+        Constructs network from given corpus.: Zgradi omrežje iz danega korpusa.
+        corpus to network, network: korpus v omrežje, mreža
+        icons/CorpusToNetwork.svg: false
         class `Inputs`:
             Corpus: Korpus
         class `Outputs`:
-            Network: null
-            orangecontrib.network.Network: null
-            Node Data: null
+            Network: Omrežje
+            orangecontrib.network.Network: false
+            Node Data: Podatki vozlišč
         class `Error`:
-            'Unknown error: {}': null
-            Please install network add-on to use this widget.: null
+            'Unknown error: {}': 'Neznana napaka: {}'
+            Please install network add-on to use this widget.: Za uporabo gradnika prosim namestite dodatek Network.
         class `Information`:
-            Parameters have been changed. Press Start to: null
-            ' run with new parameters.': null
+            Parameters have been changed. Press Start to: Nastavitve so se spremenile. Kliknite Začni za
+            ' run with new parameters.': ' zagon z novimi nastavitvami.'
         def `__init__`:
             Document: null
             Word: null
@@ -3550,7 +3550,7 @@ text/widgets/owimportdocuments.py:
             Open/Load Documents: null
             \N{HORIZONTAL ELLIPSIS}: null
             Select a folder from which to load the documents: null
-            Reload: null
+            Reload: Ponovno naloži
             Reload current document set: null
             URL:: null
             language: null
@@ -4764,7 +4764,7 @@ text/widgets/owtopicmodeling.py:
         def `__init__`:
             n/a: null
             autocommit: null
-            Commit: null
+            Commit: Uveljavi
             Options: null
             Topic evaluation: null
             'Log perplexity: %(perplexity)s': null
@@ -4809,7 +4809,7 @@ text/widgets/owtweetprofiler.py:
             'Unknown error: {}': null
         def `__init__`:
             auto_commit: null
-            Commit: null
+            Commit: Uveljavi
             Cancel: null
         def `generate_grid_layout`:
             Options: null
@@ -5196,7 +5196,7 @@ text/widgets/utils/owbasevectorizer.py:
             hidden_cb: null
             Hide bow attributes: null
             autocommit: null
-            Commit: null
+            Commit: Uveljavi
 text/widgets/utils/widgets.py:
     class `ListEdit`:
         def `__init__`:
@@ -5213,7 +5213,7 @@ text/widgets/utils/widgets.py:
     class `FileWidget`:
         def `__init__`:
             Browse: null
-            Reload: null
+            Reload: Ponovno naloži
             (none): null
         def `__start_dir`:
             ~/: null
