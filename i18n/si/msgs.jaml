@@ -1,8 +1,6 @@
 __init__.py:
-    pkg_resources: null
-text/__init__.py:
     NLTK_DATA: null
-text/annotate_documents.py:
+annotate_documents.py:
     def `annotate_documents`:
         There are no clusters using current settings.: null
     class `ClusterDocuments`:
@@ -26,7 +24,7 @@ text/annotate_documents.py:
     \n: null
     \n\n{label_ + 1}: null
     center: null
-text/corpus.py:
+corpus.py:
     def `get_sample_corpora_dir`:
         datasets: null
     def `_check_arrays`:
@@ -88,7 +86,7 @@ text/corpus.py:
         <br/><nobr>Corpus is not preprocessed</nobr>: null
         not set: null
         '<br/><nobr>Language: {language}</nobr>': null
-text/corpus_to_network.py:
+corpus_to_network.py:
     class `CorpusToNetwork`:
         def `__init__`:
             Given parameter must be instance of Corpus.: null
@@ -103,7 +101,7 @@ text/corpus_to_network.py:
             Word Network: null
             word_frequency: null
             word: null
-text/country_codes.py:
+country_codes.py:
     _0: false
     Kosovo: false
     Kosovo, Republic of: false
@@ -1427,7 +1425,7 @@ text/country_codes.py:
     Johannesburg: null
     Lusaka: null
     Harare: null
-text/guardian.py:
+guardian.py:
     http://content.guardianapis.com/search: false
     class `TheGuardianCredentials`:
         def `valid`:
@@ -1481,7 +1479,7 @@ text/guardian.py:
     THE_GUARDIAN_API_KEY: false
     test: false
     refugees: false
-text/import_documents.py:
+import_documents.py:
     docx: false
     odt: false
     txt: false
@@ -1601,7 +1599,7 @@ text/import_documents.py:
             *: false
             .*: false
             /: false
-text/language.py:
+language.py:
     af: false
     Afrikaans: false
     am: false
@@ -1788,7 +1786,7 @@ text/language.py:
         ' ': false
         \n: false
     Ancient greek: false
-text/nyt.py:
+nyt.py:
     http://api.nytimes.com/svc/search/v2/articlesearch.json: false
     def `keywords`:
         keywords: false
@@ -1856,7 +1854,7 @@ text/nyt.py:
             %Y%m%d: false
             end_date: false
             {}?{}: false
-text/ontology.py:
+ontology.py:
     class `Tree`:
         def `__init__`:
             Vertices must be enumerated from 0 to n.: false
@@ -1868,7 +1866,7 @@ text/ontology.py:
             ' ': false
     class `OntologyHandler`:
         <R-O-O-T>: false
-text/pubmed.py:
+pubmed.py:
     http://www.ncbi.nlm.nih.gov/pubmed/?term=: false
     authors: false
     title: false
@@ -1952,7 +1950,7 @@ text/pubmed.py:
             WebEnv: false
             QueryKey: false
             PMID: false
-text/semantic_search.py:
+semantic_search.py:
     class `SemanticSearch`:
         def `__init__`:
             semantic-search: false
@@ -1976,10 +1974,10 @@ text/semantic_search.py:
     is: false
     rum: false
     are: false
-text/stats.py:
+stats.py:
     def `hypergeom_p_values`:
         Number of columns does not match.: false
-text/tweet_profiler.py:
+tweet_profiler.py:
     class `TweetProfiler`:
         https://raw.githubusercontent.com/biolab/: false
         orange3-text/master/SERVERS.txt: false
@@ -2011,7 +2009,7 @@ text/tweet_profiler.py:
             get_configurations: false
             models: false
             output_modes: false
-text/twitter.py:
+twitter.py:
     am: false
     ar: false
     bg: false
@@ -2146,14 +2144,14 @@ text/twitter.py:
             Language: false
             Allow retweets: false
             Tweets count: false
-text/util.py:
+util.py:
     def `create_corpus`:
         title: false
-text/version.py:
+version.py:
     1.16.3: false
     8831881e6a409e0de974c51e2df0c0dd194ac974: false
     .dev: false
-text/wikipedia_api.py:
+wikipedia_api.py:
     class `WikipediaAPI`:
         Title: false
         title: false
@@ -2171,25 +2169,25 @@ text/wikipedia_api.py:
         query: false
         def `search`:
             Wikipedia: false
-text/hull/cluster_hull.py:
+hull/cluster_hull.py:
     def `compute_hulls`:
         Embedding must have two columns: false
     __main__: false
     iris: false
     o: false
-text/hull/concave_hull.py:
+hull/concave_hull.py:
     def `_handle_special_cases`:
         euclidean: false
     __main__: false
     Hull computed in: false
     s: false
     o: false
-text/hull/alphashape/alphashape.py:
+hull/alphashape/alphashape.py:
     alphashape: false
     def `alphasimplices`:
         'Singular matrix. Likely caused by all points ': false
         lying in an N-1 space.: false
-text/hull/alphashape/optimizealpha.py:
+hull/alphashape/optimizealpha.py:
     optimizealpha: false
     def `optimizealpha`:
         The lower bounds must be at least 0: false
@@ -2197,7 +2195,7 @@ text/hull/alphashape/optimizealpha.py:
         on your system: false
         'maximum allowed iterations reached while ': false
         optimizing the alpha parameter: false
-text/keywords/__init__.py:
+keywords/__init__.py:
     ar: false
     hy: false
     br: false
@@ -2247,7 +2245,7 @@ text/keywords/__init__.py:
         Median: false
         Min: false
         Max: false
-text/keywords/mbert.py:
+keywords/mbert.py:
     def `_split_key_phrases`:
         ' ': false
     def `mbert_keywords`:
@@ -2268,7 +2266,7 @@ text/keywords/mbert.py:
     However, a double allowance would prevent such exploitation of both the State and
     ": false
     Text: false
-text/keywords/rake.py:
+keywords/rake.py:
     def `is_number`:
         .: false
     def `separate_words`:
@@ -2282,7 +2280,7 @@ text/keywords/rake.py:
         ' ': false
     def `generate_candidate_keywords`:
         '|': false
-text/misc/nltk_data_download.py:
+misc/nltk_data_download.py:
     wait_nltk_data: false
     nltk_data_dir: false
     wordnet: false
@@ -2308,7 +2306,7 @@ text/misc/nltk_data_download.py:
         https://: false
         'Using proxy for NLTK: {proxy}': false
         {}:{}: false
-text/preprocess/filter.py:
+preprocess/filter.py:
     BaseTokenFilter: false
     StopwordsFilter: false
     LexiconFilter: false
@@ -2358,7 +2356,7 @@ text/preprocess/filter.py:
             ,: false
         def `_filter_tokens`:
             Filtering...: false
-text/preprocess/normalize.py:
+preprocess/normalize.py:
     BaseNormalizer: false
     WordNetLemmatizer: false
     PorterStemmer: false
@@ -2451,14 +2449,14 @@ text/preprocess/normalize.py:
             en: false
         def `__getstate__`:
             lemmatizer: false
-text/preprocess/preprocess.py:
+preprocess/preprocess.py:
     Preprocessor: false
     TokenizedPreprocessor: false
     NGrams: false
     PreprocessorList: false
     class `NGrams`:
         N-grams Range: false
-text/preprocess/tokenize.py:
+preprocess/tokenize.py:
     BaseTokenizer: false
     WordPunctTokenizer: false
     PunktSentenceTokenizer: false
@@ -2483,7 +2481,7 @@ text/preprocess/tokenize.py:
             Tokenizing...: false
     class `TweetTokenizer`:
         Tweet: false
-text/preprocess/transform.py:
+preprocess/transform.py:
     BaseTransformer: false
     HtmlTransformer: false
     LowercaseTransformer: false
@@ -2505,7 +2503,7 @@ text/preprocess/transform.py:
         Remove urls: false
         def `__call__`:
             ((https?):((//)|(\\\\))+([\w\d:#@%/;$()~_?\+-=\\\.&](#!)?)*): false
-text/sentiment/__init__.py:
+sentiment/__init__.py:
     def `read_file`:
         r: false
         utf8: false
@@ -2628,7 +2626,7 @@ text/sentiment/__init__.py:
         Custom Dictionaries: false
     __main__: false
     deerwester: false
-text/sentiment/filter_lexicon.py:
+sentiment/filter_lexicon.py:
     class `FilterSentiment`:
         def `read_file`:
             *.pickle: false
@@ -2640,7 +2638,7 @@ text/sentiment/filter_lexicon.py:
             resources/positive_words_Slolex.txt: false
         def `negative`:
             resources/negative_words_Slolex.txt: false
-text/tag/pos.py:
+tag/pos.py:
     POSTagger: false
     AveragedPerceptronTagger: false
     MaxEntTagger: false
@@ -2653,19 +2651,19 @@ text/tag/pos.py:
         Treebank POS Tagger (MaxEnt): false
         def `__init__`:
             taggers/maxent_treebank_pos_tagger/english.pickle: false
-text/topics/hdp.py:
+topics/hdp.py:
     class `HdpWrapper`:
         Hierarchical Dirichlet Process: false
-text/topics/lda.py:
+topics/lda.py:
     class `LdaWrapper`:
         Latent Dirichlet Allocation: false
-text/topics/lsi.py:
+topics/lsi.py:
     class `LsiWrapper`:
         Latent Semantic Indexing: false
-text/topics/nmf.py:
+topics/nmf.py:
     class `NmfWrapper`:
         Negative Matrix Factorization: false
-text/topics/topics.py:
+topics/topics.py:
     class `GensimProgressCallback`:
         def `__init__`:
             shell: false
@@ -2691,7 +2689,7 @@ text/topics/topics.py:
             Number of tokens: false
         def `get_top_words_by_id`:
             Invalid {}: false
-text/vectorization/bagofwords.py:
+vectorization/bagofwords.py:
     class `BowVectorizer`:
         BoW Vectorizer: false
         Count: false
@@ -2707,7 +2705,7 @@ text/vectorization/bagofwords.py:
         def `_transform`:
             ' ': false
             bow-feature: false
-text/vectorization/base.py:
+vectorization/base.py:
     class `BaseVectorizer`:
         def `add_features`:
             hidden: false
@@ -2715,7 +2713,7 @@ text/vectorization/base.py:
     class `VectorizationComputeValue`:
         def `__setstate__`:
             variable: false
-text/vectorization/document_embedder.py:
+vectorization/document_embedder.py:
     mean: false
     sum: false
     max: false
@@ -2783,7 +2781,7 @@ text/vectorization/document_embedder.py:
             aggregator: false
     __main__: false
     deerwester: false
-text/vectorization/sbert.py:
+vectorization/sbert.py:
     class `SBERT`:
         def `__init__`:
             sbert: false
@@ -2808,14 +2806,14 @@ text/vectorization/sbert.py:
                 replace: false
             utf-8: false
             replace: false
-text/widgets/__init__.py:
+widgets/__init__.py:
     icons/category.svg: false
     light-blue: false
     {DEVELOP_ROOT}/doc/_build/html/index.html: false
     {}/help/orange3-text/index.html: false
     data: false
     https://orange3-text.readthedocs.io/en/latest/: false
-text/widgets/owannotator.py:
+widgets/owannotator.py:
     def `run`:
         Calculating...: Računam ...
     def `index_to_cluster_label`:
@@ -2903,7 +2901,7 @@ text/widgets/owannotator.py:
     book-excerpts: false
     \w+: false
     en: false
-text/widgets/owbagofwords.py:
+widgets/owbagofwords.py:
     class `OWTBagOfWords`:
         Bag of Words: Vreča besed
         Generates a bag of words from the input corpus.: Ustvari vrečo besed iz vhodnega korpusa.
@@ -2930,7 +2928,7 @@ text/widgets/owbagofwords.py:
             Regularization: Regularizacija
     __main__: false
     book-excerpts: false
-text/widgets/owcollocations.py:
+widgets/owcollocations.py:
     score_meta: false
     name: false
     scorer: false
@@ -2982,7 +2980,7 @@ text/widgets/owcollocations.py:
             Frequency: Frekvenca
     __main__: null
     deerwester.tab: false
-text/widgets/owconcordance.py:
+widgets/owconcordance.py:
     class `ConcordanceModel`:
         def `data`:
             ' ': false
@@ -3026,7 +3024,7 @@ text/widgets/owconcordance.py:
             Matching: Ujemajoče
     __main__: false
     book-excerpts: false
-text/widgets/owcorpus.py:
+widgets/owcorpus.py:
     class `CorpusContextHandler`:
         def `match`:
             documents_hash: false
@@ -3096,7 +3094,7 @@ text/widgets/owcorpus.py:
         def `migrate_context`:
             language: false
     __main__: false
-text/widgets/owcorpustonetwork.py:
+widgets/owcorpustonetwork.py:
     class `OWCorpusToNetwork`:
         Corpus to Network: Korpus v omrežje
         Constructs network from given corpus.: Zgradi omrežje iz danega korpusa.
@@ -3146,7 +3144,7 @@ text/widgets/owcorpustonetwork.py:
             Start: null
     __main__: null
     book-excerpts: null
-text/widgets/owcorpusviewer.py:
+widgets/owcorpusviewer.py:
     "
 <!doctype html>
 <html>
@@ -3298,7 +3296,7 @@ img {{
             class_vars: null
     __main__: null
     book-excerpts: null
-text/widgets/owcreatecorpus.py:
+widgets/owcreatecorpus.py:
     class `DocumentEditor`:
         def `__init__`:
             Document title: null
@@ -3322,7 +3320,7 @@ text/widgets/owcreatecorpus.py:
         def `migrate_settings`:
             language: null
     __main__: null
-text/widgets/owdocmap.py:
+widgets/owdocmap.py:
     [\w\s\.\-]+: null
     class `Map`:
         world_mill_en: null
@@ -3373,7 +3371,7 @@ text/widgets/owdocmap.py:
         Europe: null
         USA: null
     __main__: null
-text/widgets/owdocumentembedding.py:
+widgets/owdocumentembedding.py:
     class `OWDocumentEmbedding`:
         Document Embedding: null
         Document embedding using pretrained models.: null
@@ -3409,7 +3407,7 @@ text/widgets/owdocumentembedding.py:
             Aggregator: null
     __main__: null
     book-excerpts: null
-text/widgets/owduplicates.py:
+widgets/owduplicates.py:
     class `OWDuplicates`:
         Duplicate Detection: null
         Detect & remove duplicates from a corpus.: null
@@ -3473,7 +3471,7 @@ text/widgets/owduplicates.py:
             right: null
     __main__: null
     iris: null
-text/widgets/owguardian.py:
+widgets/owguardian.py:
     class `OWGuardian`:
         class `CredentialsDialog`:
             The Guardian Credentials: null
@@ -3527,7 +3525,7 @@ text/widgets/owguardian.py:
             Output: null
             Nothing: null
     __main__: null
-text/widgets/owimportdocuments.py:
+widgets/owimportdocuments.py:
     name: null
     path: null
     def `prettifypath`:
@@ -3609,7 +3607,7 @@ text/widgets/owimportdocuments.py:
         def `migrate_context`:
             language: null
     __main__: null
-text/widgets/owkeywords.py:
+widgets/owkeywords.py:
     '{ScoringMethods.MBERT} could not extract keywords from some ': null
     documents due to connection error. Please rerun keyword extraction.: null
     def `run`:
@@ -3704,7 +3702,7 @@ text/widgets/owkeywords.py:
     minors: null
     trees: null
     deerwester: null
-text/widgets/owldavis.py:
+widgets/owldavis.py:
     class `ParameterSetter`:
         Gridlines: null
         Show: null
@@ -3762,7 +3760,7 @@ text/widgets/owldavis.py:
             Shown topic: null
     __main__: null
     deerwester: null
-text/widgets/ownyt.py:
+widgets/ownyt.py:
     class `OWNYT`:
         class `APICredentialsDialog`:
             New York Times API key: null
@@ -3818,7 +3816,7 @@ text/widgets/ownyt.py:
             Output: null
             Nothing: null
     __main__: null
-text/widgets/owontology.py:
+widgets/owontology.py:
     OntoType: null
     resources: null
     def `_run`:
@@ -4007,7 +4005,7 @@ text/widgets/owontology.py:
     Pravni akt: null
     Odločba: null
     Sklep: null
-text/widgets/owpreprocess.py:
+widgets/owpreprocess.py:
     (none): null
     def `icon_path`:
         icons: null
@@ -4306,7 +4304,7 @@ text/widgets/owpreprocess.py:
             lemmagen_language: null
     __main__: null
     deerwester: null
-text/widgets/owpubmed.py:
+widgets/owpubmed.py:
     def `_i`:
         icons: null
     [^@]+@[^@]+\.[^@]+: null
@@ -4396,7 +4394,7 @@ text/widgets/owpubmed.py:
         def `set_date`:
             yyyy/MM/dd: null
     __main__: null
-text/widgets/owscoredocuments.py:
+widgets/owscoredocuments.py:
     def `_embedding_similarity`:
         Some documents not embedded; try to rerun scoring: null
         Some words not embedded; try to rerun scoring: null
@@ -4468,7 +4466,7 @@ text/widgets/owscoredocuments.py:
     boy: null
     way: null
     Rum: null
-text/widgets/owsemanticviewer.py:
+widgets/owsemanticviewer.py:
     "
 <!doctype html>
 <html>
@@ -4568,7 +4566,7 @@ hr {{
     minors: null
     trees: null
     deerwester: null
-text/widgets/owsentimentanalysis.py:
+widgets/owsentimentanalysis.py:
     class `OWSentimentAnalysis`:
         Sentiment Analysis: null
         Compute sentiment from text.: null
@@ -4625,7 +4623,7 @@ text/widgets/owsentimentanalysis.py:
             senti_language: null
     __main__: null
     book-excerpts: null
-text/widgets/owstatistics.py:
+widgets/owstatistics.py:
     class `Sources`:
         Documents: null
         Tokens: null
@@ -4714,7 +4712,7 @@ text/widgets/owstatistics.py:
             active_rules: null
     __main__: null
     book-excerpts: null
-text/widgets/owtopicmodeling.py:
+widgets/owtopicmodeling.py:
     class `TopicWidget`:
         {description}:: null
     class `LdaWidget`:
@@ -4792,7 +4790,7 @@ text/widgets/owtopicmodeling.py:
         Topic keywords: null
     __main__: null
     deerwester: null
-text/widgets/owtweetprofiler.py:
+widgets/owtweetprofiler.py:
     class `OWTweetProfiler`:
         Tweet Profiler: null
         "Detect Ekman's, Plutchik's or Profile of Mood States's ": null
@@ -4825,7 +4823,7 @@ text/widgets/owtweetprofiler.py:
             Output: null
     __main__: null
     election-tweets-2016.tab: null
-text/widgets/owtwitter.py:
+widgets/owtwitter.py:
     def `search`:
         content: null
         @: null
@@ -4892,7 +4890,7 @@ text/widgets/owtwitter.py:
             api: null
             key_missing: null
     __main__: null
-text/widgets/owwikipedia.py:
+widgets/owwikipedia.py:
     class `OWWikipedia`:
         Wikipedia: null
         icons/Wikipedia.svg: null
@@ -4928,7 +4926,7 @@ text/widgets/owwikipedia.py:
             Query: null
             Articles count: null
     __main__: null
-text/widgets/owwordcloud.py:
+widgets/owwordcloud.py:
     '#da1': null
     '#629': null
     '#787': null
@@ -5031,7 +5029,7 @@ span.selected {color:red !important}
             {height}px;'>{body}</div>: null
     __main__: null
     book-excerpts: null
-text/widgets/owwordenrichment.py:
+widgets/owwordenrichment.py:
     class `Runner`:
         def `run`:
             Listing words: null
@@ -5082,7 +5080,7 @@ text/widgets/owwordenrichment.py:
     %0.5e: null
     __main__: null
     book-excerpts: null
-text/widgets/owwordlist.py:
+widgets/owwordlist.py:
     class `WordList`:
         def `as_dict`:
             name: null
@@ -5177,11 +5175,11 @@ text/widgets/owwordlist.py:
     B: null
     foobar: null
     C: null
-text/widgets/utils/concurrent.py:
+widgets/utils/concurrent.py:
     class `CallbackMethod`:
         def `__call__`:
             call: null
-text/widgets/utils/owbasevectorizer.py:
+widgets/utils/owbasevectorizer.py:
     class `Vectorizer`:
         def `_hide_attrs`:
             hidden: null
@@ -5197,7 +5195,7 @@ text/widgets/utils/owbasevectorizer.py:
             Hide bow attributes: null
             autocommit: null
             Commit: Uveljavi
-text/widgets/utils/widgets.py:
+widgets/utils/widgets.py:
     class `ListEdit`:
         def `__init__`:
             \n: null
@@ -5217,7 +5215,7 @@ text/widgets/utils/widgets.py:
             (none): null
         def `__start_dir`:
             ~/: null
-text/widgets/utils/words.py:
+widgets/utils/words.py:
     Words: null
     def `create_words_table`:
         type: null
