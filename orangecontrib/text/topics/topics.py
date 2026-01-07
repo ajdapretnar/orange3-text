@@ -1,6 +1,3 @@
-import inspect
-
-from gensim import matutils
 import numpy as np
 from orangecontrib.text.preprocess.dictionary import Dictionary
 from gensim.models.callbacks import Metric
@@ -10,7 +7,6 @@ from Orange.data.table import Table
 from Orange.util import dummy_callback
 
 from orangecontrib.text.corpus import Corpus
-from gensim.matutils import Sparse2Corpus
 from orangecontrib.text.vectorization import BowVectorizer
 
 MAX_WORDS = 1000
