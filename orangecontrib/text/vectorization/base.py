@@ -87,7 +87,7 @@ class SharedTransform:
         )
 
     def __hash__(self):
-        kwargs = frozenset(self.__hashable_dict(self.kwargs).items())
+        kwargs = frozenset(self.__hashable_dict(self.kwargs['source_dict']).items())
         return hash((type(self), self.preprocessor, self.vectorizer, kwargs))
 
 
