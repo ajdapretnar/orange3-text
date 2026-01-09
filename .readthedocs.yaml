@@ -16,3 +16,4 @@ python:
         path: .
         extra_requirements:
            - doc
+      - requirements: requirements-readthedocs.txt
