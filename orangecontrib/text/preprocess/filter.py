@@ -20,6 +20,14 @@ __all__ = ['BaseTokenFilter', 'StopwordsFilter', 'LexiconFilter',
            'PosTagFilter', 'NumbersFilter', 'WithNumbersFilter']
 
 
+class classproperty:
+    def __init__(self, fget):
+        self.fget = fget
+
+    def __get__(self, obj, cls):
+        return self.fget(cls)
+
+
 class BaseTokenFilter(TokenizedPreprocessor):
     def __call__(self, corpus: Corpus, callback: Callable = None) -> Corpus:
         if callback is None:
@@ -116,8 +124,7 @@ class StopwordsFilter(BaseTokenFilter, FileWordListMixin):
         """
         return LANG2ISO.get(StopwordsFilter.NLTK2LANG.get(language, language))
 
-    @classmethod
-    @property
+    @classproperty
     @wait_nltk_data
     def supported_languages(_) -> Set[str]:
         """

@@ -465,6 +465,8 @@ class OWWordList(OWWidget):
         self.__input_words_model.set_domain(domain)
         if len(self.__input_words_model) > 0:
             self.words_var = self.__input_words_model[0]
+        else:
+            self.words_var = None
         self.__input_box.setEnabled(bool(self.__input_words_model))
         self._enable_words_actions()
 
@@ -488,7 +490,7 @@ class OWWordList(OWWidget):
             lib_words = self.library_model[lib_index].cached_words
         else:
             lib_words = self.words_model[:]
-        if self.__input_words is not None:
+        if self.words_var is not None:
             in_words = self.__input_words.get_column(self.words_var)
             in_words = list(in_words)
             update_rule = self.update_rule_index

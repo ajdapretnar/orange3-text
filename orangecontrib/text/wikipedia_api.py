@@ -7,6 +7,7 @@ from orangecontrib.text import Corpus
 class NetworkException(IOError, wikipedia.exceptions.HTTPTimeoutError):
     pass
 
+wikipedia.set_user_agent("Orange3-Text/1.0 (https://orange.biolab.si)")
 
 class WikipediaAPI:
     """ Wraps Wikipedia API.
