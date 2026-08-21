@@ -211,7 +211,7 @@ class OWConcordance(OWWidget, ConcurrentWidgetMixin):
 
     class Warning(OWWidget.Warning):
         multiple_words_on_input = Msg("Multiple query words on input. "
-                                      "Only the first one is considered!")
+                                      "Only the first one is considered.")
 
     def __init__(self):
         super().__init__()
@@ -302,7 +302,7 @@ class OWConcordance(OWWidget, ConcurrentWidgetMixin):
         self.Warning.multiple_words_on_input.clear()
         if self.is_word_on_input:   # word changed, clear selection
             self.selected_rows = []
-        self.is_word_on_input = topic is not None and len(topic) > 0
+        self.is_word_on_input = topic is not None and topic.metas.size > 0
         self.input.setEnabled(not self.is_word_on_input)
         if self.is_word_on_input:
             if len(topic) > 1:
