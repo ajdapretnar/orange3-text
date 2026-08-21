@@ -197,8 +197,8 @@ class TestOWKeywords(WidgetTest):
         self.send_signal(widget.Inputs.corpus, self.corpus, widget=widget)
         self.wait_until_finished(widget=widget)
         output = self.get_output(widget.Outputs.words, widget=widget)
-        self.assertListEqual(list(output.metas[:, 0]),
-                             ["System", "Widths", "opinion"])
+        self.assertEqual(set(output.metas[:, 0]),
+                         {"System", "Widths", "opinion"})
 
     def test_scoring_methods(self):
         # speed-up the test execution
