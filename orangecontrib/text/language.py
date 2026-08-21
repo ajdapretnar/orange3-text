@@ -99,6 +99,7 @@ ISO2LANG = {
     "ug": "Uyghur",
     "uk": "Ukrainian",
     "ur": "Urdu",
+    "uz": "Uzbek",
     "vi": "Vietnamese",
     "zh": "Chinese",
     "zh_char": "Chinese - Chinese Characters",
